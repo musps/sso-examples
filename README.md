@@ -14,15 +14,16 @@ Cette application utilise :
 
 Les données de l'utilisateur sont stockés au format objet. 
 Il contient les informations suivantes :
+
 ```js
 {
   // Source de la connexion
   // github | facebook | google
   "provider": "github",
   // Identifiant du compte distant
-  "providerId: "",
+  "providerId": "9492287",
   // Token d'accès distant
-  "providerAccessToken": "",
+  "providerAccessToken": "agi78f3va1wplcxn7iuo",
   // Nom complet de l'utilisateur
   "displayName": "Toto",
   // Email de l'utilisateur
@@ -35,7 +36,7 @@ Il contient les informations suivantes :
 ### Installation
 
 - Récupérer le projet
-- Exécuter la commande `yarn install``
+- Exécuter la commande `yarn install`
 - Remplir les variables d'environnement du fichier `.env`
 
 ```.env
@@ -60,12 +61,12 @@ TOKEN_SECRET=this-is-a-secret-value-with-at-least-32-characters
 BASE_URL=http://localhost:3000
 ```
 
-- Exécuter la commande `yarn dev`` pour lancer l'app en mode développement
+- Exécuter la commande `yarn dev` pour lancer l'app en mode développement
 
 ### Build
 
-- Exécuter la commande `yarn build`` pour compiler l'app en mode production
-- Exécuter la commande `yarn staart`` pour lancer l'app 
+- Exécuter la commande `yarn build` pour compiler l'app en mode production
+- Exécuter la commande `yarn staart` pour lancer l'app 
 
 
 ### Fonctionnement
